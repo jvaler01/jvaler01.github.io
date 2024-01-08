@@ -24,8 +24,8 @@ jobs:
           repository: jvaler01/portfolio_modern
       - name: Install, build, and upload your site
         uses: withastro/action@v1
-      - name: List files uploaded
-        run: ls -R ${{ steps.deployment.outputs.page_url }}
+      # - name: List files uploaded
+        # run: ls -R ${{ steps.deployment.outputs.page_url }}
         # with:
             # path: . # The root location of your Astro project inside the repository. (optional)
             # node-version: 16 # The specific version of Node that should be used to build your site. Defaults to 16. (optional)
